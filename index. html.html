@@ -1,0 +1,127 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation en Cybersécurité - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 36px;
+        }
+        nav {
+            background-color: #004d99;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            background-color: #333;
+        }
+        section {
+            margin: 40px;
+        }
+        .section-title {
+            font-size: 28px;
+            color: #003366;
+            text-align: center;
+        }
+        .courses {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .course-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 30%;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .course-card h3 {
+            color: #003366;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formation en Cybersécurité</h1>
+        <p>Apprenez les compétences nécessaires pour protéger les systèmes informatiques et réseaux.</p>
+    </header>
+
+    <nav>
+        <a href="#courses">Nos Cours</a>
+        <a href="#about">À Propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2 class="section-title">À Propos de la Formation</h2>
+        <p>Notre formation en cybersécurité est conçue pour vous fournir les connaissances et les compétences essentielles pour protéger vos systèmes et vos données contre les menaces en ligne. De l'introduction à la cybersécurité à l'éthique du hacking, chaque module vous prépare à faire face aux défis modernes de la sécurité informatique.</p>
+    </section>
+
+    <section id="courses">
+        <h2 class="section-title">Nos Cours</h2>
+        <div class="courses">
+            <div class="course-card">
+                <h3><a href="cours1.html">Introduction à la Cybersécurité</a></h3>
+                <p>Apprenez les bases de la cybersécurité et les principes fondamentaux.</p>
+            </div>
+            <div class="course-card">
+                <h3><a href="cours2.html">Tests d'Intrusion</a></h3>
+                <p>Découvrez les techniques des tests de pénétration pour identifier les failles de sécurité.</p>
+            </div>
+            <div class="course-card">
+                <h3><a href="cours3.html">Sécurisation des Réseaux</a></h3>
+                <p>Apprenez à protéger les réseaux contre les attaques malveillantes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contactez-nous</h2>
+        <p>Pour toute question ou information supplémentaire, n'hésitez pas à nous contacter !</p>
+        <form action="#" method="POST">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Formation en Cybersécurité. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
